@@ -1,0 +1,1 @@
+A program that assign random numbers to a variable,a program that prints aphabet in lowercase and upper case,a program that prints digit numbers of base 10, staking from 0,a program that prints lowercase alphabets in reverse, aprogram that prints all numbers to base 16,a program that prints all possible combinations of a single digit number
