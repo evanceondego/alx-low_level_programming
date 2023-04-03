@@ -2,22 +2,21 @@
 #include "lists.h"
 
 /**
- * print_listint - prints the specified list
- * @h: The head of the linked list
- * Return : The number of notes in the linked list
+ * print_listint - func to print all elements of a listint_t list
+ * @h: pointer to struct
+ * Return: number of nodes
  */
 size_t print_listint(const listint_t *h)
 {
-	int nodes = 0;
+	size_t counter = 0;
 
-	if (h != NULL)
+	while (h != NULL)
 	{
-		while (h)
-		{
-			nodes++;
-			printf("%i\n", h->n);
-				h = h->next;
-		}
+		printf("%d\n", h->n);
+		counter++;
+		h = h->next;
+
 	}
-	return (nodes);
+	return (counter);
+
 }
