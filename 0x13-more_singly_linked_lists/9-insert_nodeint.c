@@ -1,11 +1,10 @@
 #include "lists.h"
-
 /**
- * insert_node_at_index -is a fuction that insert new node
- * @h: pointer head
- * @idx: identifier of a list
- * @n: the given integer
- * Return: node
+ * insert_nodeint_at_index - a function to insert a new node at a position.
+ * @head: the head
+ * @idx: index of a list.
+ * @n: the integer.
+ * Return: nodes
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
